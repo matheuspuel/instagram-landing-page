@@ -21,8 +21,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: start;
-    width: 60%;
     height: 100vh;
+    width: 800px;
 }
 
 .phone {
@@ -33,7 +33,7 @@ body {
 }
 
 .phone img {
-    height: 50rem;
+    height: 44rem;
 }
 
 .continue {
@@ -117,6 +117,7 @@ body {
     height: 3rem;
     width: 10rem;
     background-size: cover;
+    margin: 0.4rem;
 }
 
 .apple-download {
@@ -130,7 +131,15 @@ body {
 
 @media (max-width: 1024px) {
     .page {
-        width: 90%;
+        width: 350px;
+    }
+
+    .phone {
+        display: none;
+    }
+
+    .continue {
+        width: 100%;
     }
 }
 
@@ -153,5 +162,16 @@ body {
 
     .group {
         border: 1px solid transparent;
+    }
+}
+
+@media (max-width: 380px) {
+    .download {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 1rem;
     }
 }
