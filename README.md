@@ -4,4 +4,4 @@ Website developed for learning purposes based on the project [instagram-dio](htt
 
 ### Live Demo
 
-Check the result hosted on [https://matheuspuel.github.io/instagram-landing-page/index.html](https://matheuspuel.github.io/instagram-landing-page/index.html).
+Check the result hosted on [https://matheuspuel.github.io/instagram-landing-page](https://matheuspuel.github.io/instagram-landing-page).
